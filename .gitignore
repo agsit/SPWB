@@ -1,3 +1,11 @@
+# Custom
+*.code-workspace
+*.ps1
+*.pNotes
+
+webSite.branch/
+wiki.branch/
+
 # Libraries
 *.lvlibp
 *.llb
