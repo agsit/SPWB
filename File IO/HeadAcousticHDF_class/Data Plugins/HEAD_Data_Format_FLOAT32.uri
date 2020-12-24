@@ -1,0 +1,31 @@
+<usireginfo>
+    <substitution name="USI">
+        <regkey>Software\National Instruments\Common\USI</regkey>
+        <regvalue>binDir</regvalue>
+        <type>path</type>
+    </substitution>
+
+    <substitution name="PluginDirEx">
+        <regkey>Software\National Instruments\Common\USI</regkey>
+        <regvalue>pluginDirEx</regvalue>
+        <type>path</type>
+    </substitution>
+
+    <storetype name="HEAD_Data_Format_Float32">
+        <defaultfiltefilter extension="hdf"/>
+        <filefilters extension="hdf">
+            <description>HEAD_Data_Format_Float32(*.hdf)</description>
+        </filefilters>
+        	<alias>HEAD_Data_Format_Float32</alias>
+        	<importsupported>0</importsupported>
+         	<exportsupported>1</exportsupported>
+        	<description>HEAD_Data_Format_Float32</description>
+        	<filepath>%PluginDirEx%\DataPlugins\HEAD_Data_Format\uspHEAD_Data_Format.dll</filepath>        
+        	<caching>1</caching>
+        	<system>0</system>
+		<easypluginparam><![CDATA[<DataFinder>no</DataFinder><ExportDataType>FLOAT32</ExportDataType>]]></easypluginparam>
+        	<model>TDM_1_0</model>
+        	<editmode>no</editmode>
+    </storetype>    
+
+</usireginfo>
