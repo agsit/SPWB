@@ -5,7 +5,7 @@
 
 webSite.branch/
 wiki.branch/
-
+compiled/
 
 # Libraries
 *.lvlibp
