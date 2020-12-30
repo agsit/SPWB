@@ -40,8 +40,8 @@
 			<Item Name="TDMS.lvclass" Type="LVClass" URL="../File IO/TDMS_class/TDMS.lvclass"/>
 			<Item Name="TEXT.lvclass" Type="LVClass" URL="../File IO/TEXT_class/TEXT.lvclass"/>
 			<Item Name="WaveFile.lvclass" Type="LVClass" URL="../File IO/WaveFile_class/WaveFile.lvclass"/>
-			<Item Name="Manage DataPlugins.vi" Type="VI" URL="../../File IO/Manage DataPlugins.vi"/>
-			<Item Name="RegisterDataPlugin.vi" Type="VI" URL="../../File IO/RegisterDataPlugin.vi"/>
+			<Item Name="Manage DataPlugins.vi" Type="VI" URL="//SPOCKAIX01/Users/fcharett/docsWork/coding/repos/agsit/SPWB/File IO/Manage DataPlugins.vi"/>
+			<Item Name="RegisterDataPlugin.vi" Type="VI" URL="//SPOCKAIX01/Users/fcharett/docsWork/coding/repos/agsit/SPWB/File IO/RegisterDataPlugin.vi"/>
 		</Item>
 		<Item Name="User Interfaces" Type="Folder">
 			<Item Name="Time Data Processing (V1.24).vit" Type="VI" URL="../SPWB_class/Time Data Processing (V1.24).vit"/>
@@ -196,6 +196,7 @@
 				<Item Name="ex_SetExpAttribsAndT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetExpAttribsAndT0.vi"/>
 				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
 				<Item Name="ex_WaveformAttribsPlus.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribsPlus.ctl"/>
+				<Item Name="Export DataPlugin.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/utility/Export DataPlugin.vi"/>
 				<Item Name="ExtractSubstring.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ExtractSubstring.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
@@ -336,6 +337,7 @@
 				<Item Name="Timestamp Add.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Add.vi"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unregister DataPlugin.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/utility/Unregister DataPlugin.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="usiDataType.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_EditUserDefinedProperties/usiDataType.ctl"/>
 				<Item Name="usiObjectType.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/utility/usiObjectType.ctl"/>
@@ -588,19 +590,19 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C1175EC6-8313-49A2-87C5-84C602ADB0CB}</Property>
-				<Property Name="Bld_version.build" Type="Int">140</Property>
+				<Property Name="Bld_version.build" Type="Int">142</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SPWB2012.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../compiled/SPWB2012.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">/W/coding/repos/agsit/NI_AB_PROJECTNAME/compiled/SPWB2012.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../compiled/support</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">/W/coding/repos/agsit/NI_AB_PROJECTNAME/compiled/support</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Docs/SPWB New.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33122C7F-DD31-45E0-9177-2885B89ED300}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6FF7187E-E827-400A-96EB-5B224301BC7B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SPWB.lvclass/Launch NEW Window.vi</Property>
@@ -632,7 +634,7 @@
 				<Property Name="TgtF_companyName" Type="Str">AGSIT Inc</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SPWB2012</Property>
 				<Property Name="TgtF_internalName" Type="Str">SPWB2012</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 - 2020 AGSIT Inc</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 - 2021 AGSIT Inc</Property>
 				<Property Name="TgtF_productName" Type="Str">Signal Processing Work Bench 2012</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0F0B1BFB-D0AB-461D-A6EA-9C187A06CF05}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SPWB2012.exe</Property>
@@ -645,8 +647,7 @@
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Ford Motor Company</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../compiled</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToProject</Property>
+				<Property Name="INST_buildLocation" Type="Path">/W/coding/repos/agsit/SPWB/compiled</Property>
 				<Property Name="INST_buildSpecName" Type="Str">SPWB2012 - Distribution</Property>
 				<Property Name="INST_defaultDir" Type="Str">{433F1DF4-402E-4EC9-B9BE-38F235708661}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
