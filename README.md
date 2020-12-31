@@ -23,14 +23,12 @@ _If you do end up downloading and using SPWB, please consider making a donation 
 
 ---
 
-The SPWB software can be installed three different ways depending on the user preference: 
+The SPWB software can be installed in two  different ways depending on the user preference:
 * [**Cloning the repo**](https://github.com/agsit/SPWB/wiki/Installation-Options#1-repo-cloning) <br>
   If the user has LabVIEW professional 2020 or above, then cloning the repo is the easiest way and gives access to all the open source software.
 
-The next two methods do not require the user to have access to LabVIEW but do require the free runtime engine available from the National Instrument website.  For these two methods, the user will have a fully functional software but since they are compiled versions, the user will not have access to the code itself.  The get access to the code, LabVIEW is required and option 1 above is the one to use.
+The next method does not require the user to have access to LabVIEW. In this case, the user will have a fully functional software but since it is a compiled version, the user will not have access to the code itself.  The get access to the code, LabVIEW is required and option 1 above is the one to use.
 <br>
 
-* [**Stand Alone Version**](https://github.com/agsit/SPWB/wiki/Installation-Options#2-stand-alone-version)<br>
-  In this case, the user must first install the runtime engine from national instrument. Then he can simply download a zip file and unzip it in a local folder.  The software can be run directly from that local folder. 
-* [**Windows Installer**](https://github.com/agsit/SPWB/wiki/Installation-Options#3-windows-installer)<br>
-  The last option consist of using a Windows Installer.  This implies that the user must have administrator rights to install it.  Furthermore, since the download is an *.exe files, Windows 10 will have a series of security warnings during the download and installation since the installer is not digitally signed.
+* [**Windows Installer**](https://github.com/agsit/SPWB/wiki/Installation-Options#2-windows-installer)<br>
+The second option consist of using a Windows Installer.  This implies that the user must have administrator rights to install it.  Furthermore, since the download is an *.exe files, Windows 10 will have a series of security warnings during the download and installation since the installer is not digitally signed.
